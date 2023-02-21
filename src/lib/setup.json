@@ -1,0 +1,18 @@
+{
+    "info-not-used": {
+        "favicon": "must be added manually on app.html"
+    },
+    "title": "MM StableSwap",
+    "title2": "",
+    "logo": "mantlenetworkio.png",
+    "socials": {
+        "TeLegraM": "",
+        "Twitter": "",
+        "dISCORd": "",
+        "ReddIT": "",
+        "INTagraM": "",
+        "FaceBOOK": "",
+        "TEST": ""
+    },
+    "enableThemeChange": "false"
+}
