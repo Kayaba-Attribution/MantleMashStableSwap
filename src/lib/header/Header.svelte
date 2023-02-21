@@ -36,9 +36,6 @@
 		signerAddress,
 		contracts
 	} from 'svelte-ethers-store';
-
-
-
 </script>
 
 <div class="navbar fixed bg-base-300 z-40 m-auto h-20 bg-[url('./lib/shine.gif')]">
@@ -63,29 +60,9 @@
 				tabindex="0"
 				class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
 			>
-				<li><a href="/">Home</a></li>
-				<li tabindex="0">
-					<a class="justify-between">
-						Socials
-						<svg
-							class="fill-current"
-							xmlns="http://www.w3.org/2000/svg"
-							width="24"
-							height="24"
-							viewBox="0 0 24 24"
-							><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg
-						>
-					</a>
-					<ul class="p-2">
-						{#each Object.entries(setup.socials) as social}
-							<!-- ONLY RENDER if the link exists -->
-							{#if social[1] != ''}
-								<li><a href={social[1]}>{social[0]}</a></li>
-							{/if}
-						{/each}
-					</ul>
-				</li>
+				<li><a href="/">HOME</a></li>
 				<li><a href="/app">App</a></li>
+				<li><a href="/info">Contracts</a></li>
 			</ul>
 		</div>
 		<a href="/" class="m-2 px-2 normal-case text-xl hidden md:flex">
@@ -133,7 +110,7 @@
 			{/if}
 		</div>
 		<div class="w-10">
-			<img src={$blockie} alt="">
+			<img src={$blockie} alt="" />
 		</div>
 		<div
 			title="Change Theme"

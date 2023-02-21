@@ -60,7 +60,7 @@
 				class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4"
 			>
 				<a
-					href="#"
+					href="https://github.com/Kayaba-Attribution/MantleMashStableSwap"
 					class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
 				>
 					Learn more
@@ -77,7 +77,7 @@
 					>
 				</a>
 				<a
-					href="#"
+					href="https://www.youtube.com/watch?v=QLwesiOFq9k"
 					class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
 				>
 					<svg
