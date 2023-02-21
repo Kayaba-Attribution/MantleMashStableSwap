@@ -1,38 +1,55 @@
-# create-svelte
+# Mantle Mash StableSwap
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Mantle Mash StableSwap is a trade platform that allows stable pairs to be traded with a lower slippage based on an invariant curve slippage function, an implementation of Curve Finance’s Automated Market Maker (AMM). The platform was created with love for the Mantle Mash - Gitcoin Hackathon Bounty - DeFi, and was designed to provide a user-friendly and seamless experience for DeFi-related interactions.
 
-## Creating a project
+## Features and General Information
 
-If you're seeing this, you've probably already done this step. Congrats!
+### SMASH & MCASH
+To showcase the platform, two centralized Stablecoins, SMASH & MCASH, were created. PancakeSwap StableSwap contracts were forked, tested, modified, and deployed to Mantle Mash Network. Users can claim 1000 SMASH & MCASH tokens per day.
 
-```bash
-# create a new project in the current directory
-npm init svelte
+### Low Slippage Trading
+By using Curve Finance’s AMM ideas, users can swap large quantities of assets at low prices, providing a strong foundation for all DeFi protocols.
 
-# create a new project in my-app
-npm init svelte my-app
-```
+### Stable Yield Farming
+The platform generates revenue via trading fees. At the moment, 50% of the fees go to LP providers as rewards, and the rest goes to team wallets. This can be expanded to buy-backs and rewards of a native token.
 
-## Developing
+## Judging Criteria Checklist
+The judging criteria for the Best DeFi Project are as follows:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Originality and innovation in the implementation of DeFi on Mantle:
++ This project is the first of its kind on the network, and could expand to be the top protocol for stablecoins trading.
 
-```bash
-npm run dev
+User experience and ease of use for DeFi-related interactions:
++ Display User BIT Balance
++ Display Relative USD value of BIT
++ Hot-swapping accounts accepted
++ Blockies for user addresses implemented
++ Clear SMASH and MCASH user balances display
++ Clear pair reserves display
++ Easy and intuitive drip of SMASH and MCASH tokens
++ Swap Router allowances diplayed 
++ Polished website with information
++ Seamless swap, and change of coins
++ Info page with contracts and links to them
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Relevance and impact on the overall DeFi ecosystem
++ Trade stable pairs with a lower slippage based on an invariant curve slippage function, an implementation of Curve Finance’s AMM
++ One of the most important protocols needed in a blockchain
++ More pairs can be added in the future
++ A cross chain stablecoin bridge is also possible
++ Creation of native token and yield also possible
 
-## Building
+Technical feasibility and implementation quality
++ To my knowledge there are no forks of StableSwap at the moment
++ Contracts, Test, Deployments scripts can be found in the Foundry folder
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## UX/UI
+![Main Page](static/MantleImages/main.png "Optional title")
+![app](static/MantleImages/app.png)
+![balances](static/MantleImages/balances.png)
+![balance](static/MantleImages/balance.png)
+![wallet](static/MantleImages/wallet2.png)
+![wallet](static/MantleImages/wallet.png)
+![router](static/MantleImages/router.png)
+![swap](static/MantleImages/swap.png)
+![constracs](static/MantleImages/constracs.png)
