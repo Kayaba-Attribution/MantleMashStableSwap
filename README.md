@@ -4,6 +4,7 @@ Mantle Mash StableSwap is a trade platform that allows stable pairs to be traded
 
 ## Youtube Video:
 [See the Demo!  :)](https://www.youtube.com/watch?v=QLwesiOFq9k)
+[Live App](https://mantle-mash-stable-swap.vercel.app/)
 
 ## Features and General Information
 
