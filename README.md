@@ -1,6 +1,9 @@
 # Mantle Mash StableSwap
 
-Mantle Mash StableSwap is a trade platform that allows stable pairs to be traded with a lower slippage based on an invariant curve slippage function, an implementation of Curve Finance’s Automated Market Maker (AMM). The platform was created with love for the Mantle Mash - Gitcoin Hackathon Bounty - DeFi, and was designed to provide a user-friendly and seamless experience for DeFi-related interactions.
+Mantle Mash StableSwap is a trade platform that allows stable pairs to be traded with a lower slippage based on an invariant curve slippage function, an implementation of Curve Finance’s Automated Market Maker (AMM). The platform was created with love for the Mantle Mash - Gitcoin Hackathon Bounty - DeFi, and was designed to provide a user-friendly and seamless experience for DeFi-related interactions. [swap tx example.](https://explorer.testnet.mantle.xyz/tx/0x5b7f2876251d53ca1f02f378b996a44f1466ce8914ee69ffc6fd2bedeac3711f)
+
+## Youtube Video:
+[See the Demo!  :)](https://www.youtube.com/watch?v=QLwesiOFq9k)
 
 ## Features and General Information
 
@@ -53,3 +56,9 @@ Technical feasibility and implementation quality
 ![router](static/MantleImages/router.png)
 ![swap](static/MantleImages/swap.png)
 ![constracs](static/MantleImages/constracs.png)
+
+  SMASH: '0x6Bbab635b376F9880be2EF241c7886940A4d68Ff'
+  MCASH: '0xc6CEf33E3D6dA5956E3973fF24725FFb06d51532'
+  router: '0x98F9687D62b658aFc0123eCA5668f1dd39B0444c'
+  factory: '0x95a81D811Ea00d100c26cb8D77444c9eE8F429B0'
+  swapContract: '0xd24348bb374299B3BBc93A4f0D69B8e6f16EA047
